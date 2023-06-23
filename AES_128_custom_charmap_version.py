@@ -451,6 +451,10 @@ def key_processing(key):
 print("#######################################################################")
 print("##################### AES 128 WITH CUSTOM CHARMAP #####################")
 print("#######################################################################")
+if not os.path.exists("custom_charmap_data_to_decrypt/"):
+    os.makedirs("custom_charmap_data_to_decrypt/")
+if not os.path.exists("custom_charmap_decrypted_data/"):
+    os.makedirs("custom_charmap_decrypted_data/")
 key = ""
 while key == "":
     key = input("Please enter the key : ")

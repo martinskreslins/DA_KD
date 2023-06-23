@@ -427,6 +427,10 @@ def key_processing(key):
 print("#######################################################################")
 print("############################### AES 128 ###############################")
 print("#######################################################################")
+if not os.path.exists("decrypted_data/"):
+    os.makedirs("decrypted_data/")
+if not os.path.exists("data_to_decrypt/"):
+    os.makedirs("data_to_decrypt/")
 key = ""
 while key == "":
     key = input("Please enter the key : ")
