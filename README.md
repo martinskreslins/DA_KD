@@ -1,5 +1,5 @@
 # DA_KD
-Attempt at AES 128.
+Attempt at AES 128. Developed based on NIST published paper: https://doi.org/10.6028/NIST.FIPS.197-upd1
 ### BEFORE YOU USE:
 'AES_128.py' Works, but some parts of text can fail to decrypt properly because of encoding errors. <br>
 'AES_128_custom_charmap_version.py' Hotfixed version by using a custom charmap.<br>
