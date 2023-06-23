@@ -1,9 +1,10 @@
 # DA_KD
+Python version 3.11.4
 Attempt at AES 128. Developed based on NIST published paper: https://doi.org/10.6028/NIST.FIPS.197-upd1
 ### BEFORE YOU USE:
-'AES_128.py' Works, but some parts of text can fail to decrypt properly because of encoding errors. <br>
+'AES_128.py' Works but some parts of text can fail to decrypt properly because of encoding errors. <br>
 'AES_128_custom_charmap_version.py' Hotfixed version by using a custom charmap.<br>
-Key provided in input can be any length except null. If  input length is 16 key is unmodified. Else key is lenghtened or shortened it to 16 symbols.<br>
+Key provided in input can be any length except null. If  input length is 16 key is unmodified. Else key is lenghtened or shortened to 16 symbols.<br>
 Folder names are to remain UNCHANGED.<br>
 'data' folder holds data (plaintext) to encrypt. 'Latin_1' 0-255 symbols ONLY. <br>
 'data to decrypt' holds 'AES_128.py' encryption results.<br>
